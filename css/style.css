@@ -1,0 +1,750 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f2f2f2;
+}
+a{
+	text-decoration: none;
+}
+header{
+	background-image: url(../img/ribbon.svg), url(../img/bg.jpg);
+	background-position: right top, left top;
+	background-size: 10%, cover;
+	background-repeat: no-repeat;
+}
+
+/*
+  /$$$$$$  /$$           /$$                 /$$
+ /$$__  $$| $$          | $$                | $$
+| $$  \__/| $$  /$$$$$$ | $$$$$$$   /$$$$$$ | $$
+| $$ /$$$$| $$ /$$__  $$| $$__  $$ |____  $$| $$
+| $$|_  $$| $$| $$  \ $$| $$  \ $$  /$$$$$$$| $$
+| $$  \ $$| $$| $$  | $$| $$  | $$ /$$__  $$| $$
+|  $$$$$$/| $$|  $$$$$$/| $$$$$$$/|  $$$$$$$| $$
+ \______/ |__/ \______/ |_______/  \_______/|__/
+                                                
+                                                
+                                                
+*/
+header{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: space-between;
+}
+header span{
+	display: block;
+	width: 100%;
+	padding: 1rem 0;
+	text-align: center;
+	color: white;
+	background-color: rgba(135,158,15,0.8);
+	margin-bottom: 3rem;
+}
+header figure{
+	width: 50%;
+	text-align: center;
+	color: white;
+	margin-bottom: 1.7rem;
+}
+header figure:last-of-type{
+	padding-top: 0.8rem;
+}
+header figure .fas{
+	padding: 0.8rem;
+	color: #d5dfa0;
+	border: 1px solid #d5dfa0;
+	border-radius: 50%;
+	margin: 0 0.5rem;
+}
+header figure span{
+	font-weight: bold;
+	text-align: inherit;
+	width: inherit;
+	display: inline;
+	background-color: inherit;
+}
+header nav{
+	display: flex;
+	justify-content: space-between;
+	align-content: stretch;
+	margin-bottom: 1.5rem;
+}
+header nav a{
+	padding: 1rem 4rem;
+	color: white;
+}
+header nav a:hover{
+	background-color: rgba(255,255,255,0.2);
+}
+.the figure:hover{
+	background-color: rgba(242,242,242,0.2);
+}
+/*
+ /$$   /$$                           /$$                    
+| $$  | $$                          | $$                    
+| $$  | $$  /$$$$$$   /$$$$$$   /$$$$$$$  /$$$$$$   /$$$$$$ 
+| $$$$$$$$ /$$__  $$ |____  $$ /$$__  $$ /$$__  $$ /$$__  $$
+| $$__  $$| $$$$$$$$  /$$$$$$$| $$  | $$| $$$$$$$$| $$  \__/
+| $$  | $$| $$_____/ /$$__  $$| $$  | $$| $$_____/| $$      
+| $$  | $$|  $$$$$$$|  $$$$$$$|  $$$$$$$|  $$$$$$$| $$      
+|__/  |__/ \_______/ \_______/ \_______/ \_______/|__/      
+                                                            
+                                                            
+                                                            
+*/
+main{
+	width: 1100px;
+	margin:0 auto;
+	margin-bottom: 4rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+}
+h1, .the h2, .nouveaute h3, .thenoir h3, .thevert h3, .oolong h3, .theblanc h3, .rooibos h3{
+	font-family: 'Amaranth', sans-serif;
+	font-size: 2.5rem;
+	text-align: center;
+	color: #94ad13;
+	padding: 2.4rem 0;
+}
+.the{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	background-color: white;
+	margin-bottom: 2rem;
+	padding-bottom: 1.3rem;
+	width: 100%;
+}
+.the figure{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: stretch;
+}
+.promotion img{
+	width: 100%;
+}
+.promotion p{
+	padding: 0.7rem 0;
+	color: grey;
+	text-align: center;
+	font-size: 0.8rem;
+	margin-bottom: 1rem;
+}
+.the h2, .nouveaute h3{
+	width: 100%;
+	font-size: 1.5rem;
+}
+.the figcaption, .nouveaute h4, .thenoir h4 ,.thevert h4, .oolong h4, .theblanc h4, .rooibos h4, .divers span{
+	text-align: center;
+	font-family: 'Amaranth', sans-serif;
+	color: #615e6f;
+	font-size: 1.3rem;
+}
+.nouveaute, .thenoir, .thevert, .oolong, .theblanc, .rooibos{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: stretch;
+	background-color: white;
+	text-align: center;
+}
+.nouveaute article{
+	padding-bottom: 2.8rem;
+}
+.nouveaute figure{
+	margin-bottom: 3.1rem;
+}
+.nouveaute img{
+	width: 78%;
+	text-align: center;
+	margin-bottom: 0.6rem;
+}
+.nouveaute figcaption{
+	font-family: 'Open Sans', sans-serif;
+	color: grey;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+	padding: 0 1.4rem;
+}
+h4{
+	margin-bottom: 1.5rem;
+}
+.nouveaute p{
+	margin-top: 1.2rem;
+	margin-bottom: 0.4rem;
+}
+.nouveaute span, .thenoir span, .thevert span, .oolong span, .theblanc span, .rooibos span{
+	font-family: 'Amaranth', sans-serif;
+	color: #615e6f;
+}
+.nouveaute a, .thenoir a, .thevert a, .oolong a, .theblanc a, .rooibos a{
+	padding: 1rem 1.2rem;
+	color: white;
+	background-color: #b09067;
+}
+.detail{
+	width: 100%;
+	background-color: white;
+	padding: 2rem;
+	padding-bottom: 0;
+}
+.detail div{
+	float: right;
+	margin-top: -6rem;
+}
+.detail .fas{
+	font-size: 1.5rem;
+	color: #fedc09;
+}
+h6{
+	font-size: 2rem;
+	color: #636466;
+	font-family: 'Amaranth', sans-serif;
+	margin-bottom: 0.8rem;
+}
+strong{
+	font-weight: bold;
+	color: #636466;
+	display: block;
+	margin-bottom: 1.5rem;
+}
+.detail p{
+	font-family: 'Open Sans', sans-serif;
+	color: #636466;
+	margin-top:0.8rem;
+}
+.detail p:last-child{
+	color: #94ad13;
+}
+.prix{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	width: 100%;
+	background-color: white;
+
+}
+.prix article{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: stretch;
+	width: 27.3%;
+	padding-right: 2rem;
+}
+select{
+	padding: 0.7rem;
+	margin-top: 5rem;
+}
+.prix span{
+	font-size: 2.2rem;
+	color: #636466;
+	font-weight: bold;
+	text-align: right;
+	margin-top: -3rem;
+}
+.prix a{
+	text-align: right;
+	color: #94ad13;
+	margin-top: -3rem;
+}
+.prix input{
+	border: none;
+	padding: 1rem 0;
+	background-color: #b09067;
+	color: white;
+	margin-top: 1rem;
+}
+.product article{
+	background-color: white;
+	padding: 0 2rem;
+}
+.product article p{
+	font-family: 'Open Sans', sans-serif;
+	color: #636466;
+	font-size: 1rem;
+	margin-bottom: 1.1rem;
+	line-height: 1.6rem;
+}
+.product article p:nth-child(3), .product article p:last-child{
+	font-weight: bold;
+}
+.equipe, .concept{
+	background-color: white;
+	padding: 1.8rem;
+}
+.equipe{
+	margin-bottom: -3rem;
+}
+.concept{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.equipe h1, .concept h1{
+	text-align: left;
+	color: #656766;
+	margin-bottom: 0.5rem;
+}
+.equipe h2{
+	font-family: 'Amaranth', sans-serif;
+	color: #94ad13;
+	font-size: 1.5rem;
+	padding-left: 0.7rem;
+	margin-bottom: 1.6rem;
+}
+.equipe img{
+	float: left;
+	margin-right: 1.5rem;
+}
+.equipe p, .concept p, .divers p{
+	line-height: 1.6rem;
+	color: #656766;
+	margin-bottom: 1rem;
+}
+.divers p{
+	margin-bottom: 3.3rem;
+}
+img[src="img/xavier.jpg"]{
+	float: right;
+	margin-left: 1.5rem;
+	margin-right: inherit;
+}
+.equipe h2:last-of-type{
+	margin-top: 1.7rem;
+}
+.divers{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: stretch;
+	background-color: white;
+	padding: 0 1.8rem;
+	padding-bottom: 1.8rem;
+}
+.divers article{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+	text-align: center;
+	background-color: #eaefcf;
+}
+.divers figure img{
+	width: 6.3rem;
+	margin-top: 3.2rem;
+	margin-bottom: 0.8rem;
+}
+.divers span{
+	margin-bottom: 2rem;
+}
+/*
+ /$$      /$$           /$$          
+| $$$    /$$$          |__/          
+| $$$$  /$$$$  /$$$$$$  /$$ /$$$$$$$ 
+| $$ $$/$$ $$ |____  $$| $$| $$__  $$
+| $$  $$$| $$  /$$$$$$$| $$| $$  \ $$
+| $$\  $ | $$ /$$__  $$| $$| $$  | $$
+| $$ \/  | $$|  $$$$$$$| $$| $$  | $$
+|__/     |__/ \_______/|__/|__/  |__/
+*/                                    
+                                     
+                                     
+
+aside{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: stretch;
+	background-color: #879e0f;
+	text-align: center;
+	margin: 0 auto;
+}
+aside .fas, .far{
+	display: block;
+	color: #ced79e;
+	font-size: 1.5rem;
+	padding-top: 1.7rem;
+	padding-bottom: 0.8rem;
+}
+aside p{
+	text-transform: uppercase;
+	color: #ced79e;
+	font-size: 0.8rem;
+	padding-bottom: 2rem;
+}
+/*
+  /$$$$$$            /$$       /$$          
+ /$$__  $$          |__/      | $$          
+| $$  \ $$  /$$$$$$$ /$$  /$$$$$$$  /$$$$$$ 
+| $$$$$$$$ /$$_____/| $$ /$$__  $$ /$$__  $$
+| $$__  $$|  $$$$$$ | $$| $$  | $$| $$$$$$$$
+| $$  | $$ \____  $$| $$| $$  | $$| $$_____/
+| $$  | $$ /$$$$$$$/| $$|  $$$$$$$|  $$$$$$$
+|__/  |__/|_______/ |__/ \_______/ \_______/
+*/                                           
+                                            
+                                        
+footer{
+	width: inherit;
+	background-image: url(../img/bg.jpg);
+	background-size: contain;
+	margin: 0 auto;
+}
+footer nav{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: stretch;
+	text-align: center;
+}
+footer article{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+footer article a{
+	padding: 0.5rem 0;
+	font-size: 0.8rem;
+	color: #ced79e;
+}
+h5{
+	padding-top: 2.9rem;
+	color: white;
+	margin-bottom: 1.3rem;
+	font-weight: bold;
+}
+footer>a{
+	text-align: center;
+	display: block;
+	width: 100%;
+	background-color: rgba(135,158,15,0.6);
+}
+footer img{
+	width: 3rem;
+	padding: 2.3rem;
+}
+/*
+ /$$$$$$$$                    /$$                        
+| $$_____/                   | $$                        
+| $$     /$$$$$$   /$$$$$$  /$$$$$$    /$$$$$$   /$$$$$$ 
+| $$$$$ /$$__  $$ /$$__  $$|_  $$_/   /$$__  $$ /$$__  $$
+| $$__/| $$  \ $$| $$  \ $$  | $$    | $$$$$$$$| $$  \__/
+| $$   | $$  | $$| $$  | $$  | $$ /$$| $$_____/| $$      
+| $$   |  $$$$$$/|  $$$$$$/  |  $$$$/|  $$$$$$$| $$      
+|__/    \______/  \______/    \___/   \_______/|__/      
+*/                                                         
+                                                         
+                                                         
+
+@media screen and (max-width: 770px){
+	main{
+		width: inherit;
+	}
+	header{
+		background-image: url(../img/ribbon.svg), url(../img/bg.jpg);
+		background-position: right top, left top;
+		background-size: 14%, cover;
+		background-repeat: no-repeat;
+	}
+	header figure{
+		width: 47%;
+	}
+	header>figure{
+		float: left;
+		text-align: left;
+	}
+	header figure:last-of-type{
+		float: right;
+		text-align: right;
+	}
+	header nav a{
+		padding: 1rem 1.8rem;
+	}
+	.the figure{
+		display: inline-block;
+		width: 50%;
+		text-align: center;
+	}
+	.nouveaute{
+		display: flex;
+		flex-direction: column;
+	}
+	.nouveaute article{
+		width: 100%;
+	}
+	.nouveaute img{
+		width: 38%;
+	}
+	footer{
+		background-image: url(../img/bg.jpg);
+		background-size: cover;
+	}
+	.thenoir figure img{
+		display: none;
+	}
+
+}
+/*
+ /$$$$$$$$        /$$       /$$             /$$     /$$              
+|__  $$__/       | $$      | $$            | $$    | $$              
+   | $$  /$$$$$$ | $$$$$$$ | $$  /$$$$$$  /$$$$$$ /$$$$$$    /$$$$$$ 
+   | $$ |____  $$| $$__  $$| $$ /$$__  $$|_  $$_/|_  $$_/   /$$__  $$
+   | $$  /$$$$$$$| $$  \ $$| $$| $$$$$$$$  | $$    | $$    | $$$$$$$$
+   | $$ /$$__  $$| $$  | $$| $$| $$_____/  | $$ /$$| $$ /$$| $$_____/
+   | $$|  $$$$$$$| $$$$$$$/| $$|  $$$$$$$  |  $$$$/|  $$$$/|  $$$$$$$
+   |__/ \_______/|_______/ |__/ \_______/   \___/   \___/   \_______/
+*/                                                                     
+                                                                     
+                                                                     
+
+@media screen and (max-width: 385px){
+	header{
+		background-image: url(../img/bg.jpg);
+		background-size: cover;
+		flex-direction: column;
+		margin-bottom: 1.7rem;
+	}
+	header span{
+		margin-bottom: 1rem;
+	}
+	header figure:last-of-type{
+		order: 1;
+		width: 41%;
+		text-align: left;
+		border-top-right-radius: 80px;
+		border-bottom-right-radius: 80px;
+		box-shadow: 4px -3px 8px 0px rgba(135,158,15,1);
+		padding: 0.5rem;
+		margin-bottom: 1rem;
+	}
+	header>figure{
+		order:2;
+		width: 100%;
+		text-align: center;
+	}
+	header nav{
+		order: 3;
+		width: 100%;
+		flex-direction: column;
+		text-align: center;
+	}
+	.promotion, .flexslider{
+		display: none;
+	}
+	.nouveaute img{
+		width: 77%;
+	}
+	aside{
+		display: block;
+		width: 100%;
+	}
+	aside p{
+		display: inline-block;
+		width: 33%;
+	}
+	footer nav{
+		flex-direction: column;
+		margin-bottom: 2rem;
+	}
+}
+/*
+ /$$      /$$           /$$       /$$ /$$          
+| $$$    /$$$          | $$      |__/| $$          
+| $$$$  /$$$$  /$$$$$$ | $$$$$$$  /$$| $$  /$$$$$$ 
+| $$ $$/$$ $$ /$$__  $$| $$__  $$| $$| $$ /$$__  $$
+| $$  $$$| $$| $$  \ $$| $$  \ $$| $$| $$| $$$$$$$$
+| $$\  $ | $$| $$  | $$| $$  | $$| $$| $$| $$_____/
+| $$ \/  | $$|  $$$$$$/| $$$$$$$/| $$| $$|  $$$$$$$
+|__/     |__/ \______/ |_______/ |__/|__/ \_______/
+ */                                                  
+                                                   
+                                                   
+
+.thenoir, .thevert, .oolong, .theblanc, .rooibos{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+	margin: 0 auto;
+	margin-top: 1.7rem;
+	background-color: white;
+}                                         
+.thenoir figure img, .thevert figure img, .oolong figure img, .theblanc figure img, .rooibos figure img{
+	display: block;
+	width: 14%;
+	float: left;
+	padding-top: 3rem;
+}
+.thenoir h3, .thevert h3, .oolong h3, .theblanc h3, .rooibos h3{
+	text-align: left;
+	font-size: 1.3rem;
+	padding-top: 3.2rem;
+	padding-bottom: 1.1rem;
+}
+.thenoir p, .thevert p, .oolong p, .theblanc p, .rooibos p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2rem;
+	color: grey;
+	line-height: 1.6rem;
+	text-align: left;
+	margin-bottom: 4rem;
+}
+.thenoir article, .thevert article, .oolong article, .theblanc article, .rooibos article{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: stretch;
+	text-align: center;
+	padding-bottom: 2.3rem;
+}
+.thenoir article img, .thevert article img, .oolong article img, .theblanc article img, .rooibos article img{
+	width: 100%;
+}
+.thenoir article p, .thevert article p, .oolong article p, .theblanc article p, .rooibos article p{
+	text-align: center;
+	margin-bottom: 0.8rem;
+}
+.thenoir span, .thevert span, .oolong span, .theblanc span, .rooibos span{
+	margin-bottom: 2.2rem;
+}
+/*
+ /$$       /$$             /$$     /$$                    
+| $$      |__/            | $$    |__/                    
+| $$       /$$  /$$$$$$$ /$$$$$$   /$$ /$$$$$$$   /$$$$$$ 
+| $$      | $$ /$$_____/|_  $$_/  | $$| $$__  $$ /$$__  $$
+| $$      | $$|  $$$$$$   | $$    | $$| $$  \ $$| $$  \ $$
+| $$      | $$ \____  $$  | $$ /$$| $$| $$  | $$| $$  | $$
+| $$$$$$$$| $$ /$$$$$$$/  |  $$$$/| $$| $$  | $$|  $$$$$$$
+|________/|__/|_______/    \___/  |__/|__/  |__/ \____  $$
+                                                 /$$  \ $$
+                                                |  $$$$$$/
+                                                 \______/ 
+*/
+@media screen and (max-width: 770px){
+	.thenoir figure img, .thevert figure img, .oolong figure img, .theblanc figure img, .rooibos figure img{
+		display: none;
+	}
+	.thenoir figure, .thevert figure, .oolong figure, .theblanc figure, .rooibos figure{
+		padding: 0 1.7rem;
+	}
+	.thenoir article, .thevert article, .oolong article, .theblanc article, .rooibos article{
+		flex-direction: column;
+		width: 100%;
+	}
+	.thenoir article img, .thevert article img, .oolong article img, .theblanc article img, .rooibos article img{
+		width: 50%;
+		margin: 0 auto;
+	}
+	.thenoir article a, .thevert article a, .oolong article a, .theblanc article a, .rooibos article a{
+		width: 21%;
+		margin: 0 auto;
+	}
+	.thenoir article span, .thevert article span, .oolong article span, .theblanc article span, .rooibos article span{
+		font-size: 1.6rem;
+	}
+}
+/*
+ /$$$$$$$$        /$$       /$$             /$$                     /$$       /$$             /$$     /$$                    
+|__  $$__/       | $$      | $$            | $$                    | $$      |__/            | $$    |__/                    
+   | $$  /$$$$$$ | $$$$$$$ | $$  /$$$$$$  /$$$$$$    /$$$$$$       | $$       /$$  /$$$$$$$ /$$$$$$   /$$ /$$$$$$$   /$$$$$$ 
+   | $$ |____  $$| $$__  $$| $$ /$$__  $$|_  $$_/   /$$__  $$      | $$      | $$ /$$_____/|_  $$_/  | $$| $$__  $$ /$$__  $$
+   | $$  /$$$$$$$| $$  \ $$| $$| $$$$$$$$  | $$    | $$$$$$$$      | $$      | $$|  $$$$$$   | $$    | $$| $$  \ $$| $$  \ $$
+   | $$ /$$__  $$| $$  | $$| $$| $$_____/  | $$ /$$| $$_____/      | $$      | $$ \____  $$  | $$ /$$| $$| $$  | $$| $$  | $$
+   | $$|  $$$$$$$| $$$$$$$/| $$|  $$$$$$$  |  $$$$/|  $$$$$$$      | $$$$$$$$| $$ /$$$$$$$/  |  $$$$/| $$| $$  | $$|  $$$$$$$
+   |__/ \_______/|_______/ |__/ \_______/   \___/   \_______/      |________/|__/|_______/    \___/  |__/|__/  |__/ \____  $$
+                                                                                                                    /$$  \ $$
+                                                                                                                   |  $$$$$$/
+                                                                                                                    \______/ 
+*/
+@media screen and (max-width: 385px){
+	.thenoir article img, .thevert article img, .oolong article img, .theblanc article img, .rooibos article img{
+		width: 78%;
+		margin: 0 auto;
+	}
+	.thenoir article a, .thevert article a, .oolong article a, .theblanc article a, .rooibos article a{
+		width: 45%;
+		margin: 0 auto;
+	}
+	
+
+}
+
+/*
+ /$$      /$$           /$$       /$$ /$$                 /$$       /$$             /$$     /$$                    
+| $$$    /$$$          | $$      |__/| $$                | $$      |__/            | $$    |__/                    
+| $$$$  /$$$$  /$$$$$$ | $$$$$$$  /$$| $$  /$$$$$$       | $$       /$$  /$$$$$$$ /$$$$$$   /$$ /$$$$$$$   /$$$$$$ 
+| $$ $$/$$ $$ /$$__  $$| $$__  $$| $$| $$ /$$__  $$      | $$      | $$ /$$_____/|_  $$_/  | $$| $$__  $$ /$$__  $$
+| $$  $$$| $$| $$  \ $$| $$  \ $$| $$| $$| $$$$$$$$      | $$      | $$|  $$$$$$   | $$    | $$| $$  \ $$| $$  \ $$
+| $$\  $ | $$| $$  | $$| $$  | $$| $$| $$| $$_____/      | $$      | $$ \____  $$  | $$ /$$| $$| $$  | $$| $$  | $$
+| $$ \/  | $$|  $$$$$$/| $$$$$$$/| $$| $$|  $$$$$$$      | $$$$$$$$| $$ /$$$$$$$/  |  $$$$/| $$| $$  | $$|  $$$$$$$
+|__/     |__/ \______/ |_______/ |__/|__/ \_______/      |________/|__/|_______/    \___/  |__/|__/  |__/ \____  $$
+                                                                                                          /$$  \ $$
+                                                                                                         |  $$$$$$/
+                                                                                                          \______/ 
+*/
+@media screen and (max-width: 770px){
+	.product{
+		width: inherit;
+	}
+	.divers{
+		flex-wrap: wrap;
+	}
+	.divers p{
+		margin-bottom: inherit;
+	}
+	.divers p:last-of-type{
+		margin-bottom: 2.7rem;
+	}
+}
+
+
+@media screen and (max-width: 385px){
+	.detail, .prix article{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: stretch;
+		text-align: center;
+	}
+	.detail div{
+		float: inherit;
+		margin-top: inherit;
+	}
+	.detail p{
+		margin-top: inherit;
+		margin-bottom: 1.5rem;
+	}
+	.prix img{
+		width: 100%;
+	}
+	.listing{
+		margin-bottom: inherit;
+	}
+	.detail p:last-child{
+		margin-top: 1rem;
+	}
+	select{
+		margin-top: inherit;
+		margin-bottom: 4rem;
+	}
+	.prix span{
+		text-align: center;
+		margin-bottom: 2.7rem;
+	}
+	.prix input{
+		margin-bottom: 1rem;
+	}
+	.prix a{
+		margin-top: inherit;
+		text-align: center;
+		margin-bottom: 1.5rem;
+	}
+	.equipe, .equipe img{
+		width: 100%;
+	}
+}
